@@ -1,0 +1,11 @@
+axis-REV609819
+mvn install:install-file -Dfile=axis-REV609819.jar -DgroupId=com.extjar.framework -DartifactId=axis-REV609819 -Dversion=1.0 -Dpackaging=jar
+
+jaxrpc
+mvn install:install-file -Dfile=jaxrpc.jar -DgroupId=com.extjar.framework -DartifactId=jaxrpc -Dversion=1.0 -Dpackaging=jar
+
+zfj-cloud-rest-client-3.0.jar
+mvn install:install-file -Dfile=zfj-cloud-rest-client-3.0.jar -DgroupId=com.extjar.framework -DartifactId=zephyr-restutil -Dversion=3.0 -Dpackaging=jar
+
+saaj
+mvn install:install-file -Dfile=saaj.jar -DgroupId=com.extjar.framework -DartifactId=saaj -Dversion=1.0 -Dpackaging=jar
